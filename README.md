@@ -3,6 +3,13 @@ Minimal implementation of Preferential Bayesian Optimisation. [Gonzalez et al. 2
 
 Note: it only contains the Preferential GP and its approximated Copeland function, but **not** its acquisition functions.
 
+Requires the following libraries:
+ - numpy
+ - matplotlib
+ - scikit-learn
+ 
+ `pip install numpy matplotlib scikit-learn`
+
 ![pbo_samples](https://user-images.githubusercontent.com/1292230/70983443-685e2a00-20c1-11ea-9771-5fdfbc0f44fc.png)
 
 ![pbo_estimate_1000](https://user-images.githubusercontent.com/1292230/70983442-685e2a00-20c1-11ea-9ae5-a3c94dbca071.png)
